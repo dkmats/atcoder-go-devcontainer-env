@@ -1,13 +1,19 @@
-# Golang で AtCoder をするための devcontainer の設定
+# Devcontainer configurations for AtCoder with Golang 
+Golang で AtCoder をするための devcontainer の設定
 
-個人的な使用目的ですが自由に使ってください。  
-[devcontainer](https://code.visualstudio.com/docs/devcontainers/containers)上で[online-judge-tools](https://github.com/online-judge-tools/oj)と[atcoder-cli](https://github.com/Tatamo/atcoder-cli)を使ったAtCoder用環境です。  
+This repo is for personal use, but feel free to use it.  
+個人的な使用目的ですが自由に使ってください。
 
+Environment for AtCoder using [online-judge-tools](https://github.com/online-judge-tools/oj) and [atcoder-cli](https://github.com/Tatamo/atcoder-cli) on [devcontainer](https://code.visualstudio.com/docs/devcontainers/containers).  
+[devcontainer](https://code.visualstudio.com/docs/devcontainers/containers)上で[online-judge-tools](https://github.com/online-judge-tools/oj)と[atcoder-cli](https://github.com/Tatamo/atcoder-cli)を使ったAtCoder用環境です。
+
+Since it is intended to be used with Golang, all settings are Golang.
+The simplest golang templates are also included by default.  
 Golangで使用する目的なので、設定は全てGolangです。
 一番簡単なgolangテンプレートもデフォルトで入るようにしています。  
 
 
-## devcontainerをビルドしたら
+## After build-up the devcontainer : devcontainerをビルドしたら
 
 `setup.sh`を実行します。
 ```bash
@@ -18,7 +24,7 @@ $ bash ./setup/setup.sh
 
 
 
-## エイリアス
+## Setted aliases : エイリアス
 
 `oj`でのログイン用の`oj-login`と短縮形の`oj-l`
 ```bash
