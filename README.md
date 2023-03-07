@@ -33,3 +33,7 @@ alias oj-t="oj test -c \"go run main.go\" -d tests"
 ```
 
 `acc`はコマンドが十分短いのでエイリアスは作っていません。
+
+## License
+
+[MIT](LICENSE)
