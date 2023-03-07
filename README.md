@@ -1,5 +1,7 @@
 # Devcontainer configurations for AtCoder with Golang 
-Golang で AtCoder をするための devcontainer の設定
+
+[![GitHub last commit](https://img.shields.io/github/last-commit/dkmats/go-blog-app.svg)](https://github.com/dkmats/go-blog-app)
+[![License](http://img.shields.io/badge/license-mit-blue.svg)](https://github.com/dkmats/go-blog-app/blob/main/LICENSE)
 
 This repo is for personal use, but feel free to use it.  
 個人的な使用目的ですが自由に使ってください。
